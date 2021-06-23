@@ -9,10 +9,12 @@ function html(next) {
     gulp.src("./src/*.html")
         .pipe(
             htmlmin({
-                collapseInlineTagWhitespace: true,
+                collapseInlineTagWhitespace: false,
                 collapseWhitespace: true,
-                removeTagWhitespace: true,
                 removeComments: true,
+                minifyCSS: true,
+                minifyJS: true,
+                minifyURLs: true,
             })
         )
         .pipe(gulp.dest("./dist/"))

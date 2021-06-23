@@ -20,6 +20,7 @@
         "gulp-connect": "^5.7.0",
         "gulp-htmlmin": "^5.0.1",
         "gulp-imagemin": "^7.1.0",
-        "gulp-minify": "^3.1.0"
+        "gulp-minify": "^3.1.0",
+        "imagemin-optipng": "^8.0.0"
     }
 }
